@@ -13,6 +13,10 @@
   <title>Uploade de arquivos</title>
 </head>
 <body>
+
+  <!-- Para emviar arquivos para o servidor precisa 
+  mudar o enctype para multipart/form-data -->
+
   <form action="index.php" method="post" enctype="multipart/form-data">
     <div><input type="file" name="imagem"></div>
     <div><input type="submit" value="Enviar"></div>
